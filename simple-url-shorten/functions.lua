@@ -54,6 +54,7 @@ function M.redis_connect()
 	if not res then
 		return nil, 51
 	end
+	red:select(config['redis']['database'])
 	return red
 end
 
