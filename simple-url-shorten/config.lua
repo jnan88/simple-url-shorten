@@ -16,6 +16,7 @@ local base_str = table.concat( base_table, "")
 local redis = {}
 redis['host'] = '127.0.0.1'
 redis['port'] = 6379
+redis['database'] = 0
 redis['password'] = 'passwd'
 
 
